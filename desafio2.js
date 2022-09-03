@@ -12,7 +12,7 @@ let  buzo= prompt(`Bienvenido/a Soy Sara un algoritmo ayudante de la tienda TuAn
 
 while( buzo.toLowerCase() == "si" ){
     let color=  prompt('Elija El Color que desea la Tela.')
-    let tela = parseInt(prompt("Elija El tipo de Tela\n 1-Algodon\n  2-Jogging\n  3-Polar."))
+    let tela = parseInt(prompt("Elija El numero del tipo de Tela\n 1-Algodon\n  2-Jogging\n  3-Polar."))
     let personaje = prompt("Elija el personaje que le gustaria en el estampado \n *Serena Tsukino *Kakashi Hatake *Monkey D. Luffy *Biscuit Krueger  *Edward Elric * Asuka Langley *Shoto Todoroki *Rei Ayanami")
     let pago = prompt("Ingrese el metodo de Pago \n *Debito *Credito *Mercado Pago *Otro")
     
